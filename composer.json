@@ -1,0 +1,21 @@
+{
+	"name": "bors/forms",
+
+	"authors": [
+		{
+			"name": "Balancer",
+			"email": "balancer@balancer.ru"
+		}
+	],
+
+	"require": {
+		"balancer/bors-core": "*",
+	},
+
+	"autoload": {
+		"psr-4": {
+			"B2\\Form\\": "./"
+		}
+	}
+}
+
