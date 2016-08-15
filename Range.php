@@ -21,8 +21,14 @@ class Range extends \bors_forms_element
 		$format = defval($params, 'format', '%s — %s');
 
 		$html[] = sprintf($format,
-			$form->element_html('input', ['name' => $params['name1'], 'size' => defval($params, 'size', 4)]),
-			$form->element_html('input', ['name' => $params['name2'], 'size' => defval($params, 'size', 4)])
+			$form->element_html('input', [
+				'name' => $params['name1'],
+				'size' => defval($params, 'size', 4),
+				'raw' => true]),
+			$form->element_html('input', [
+				'name' => $params['name2'],
+				'size' => defval($params, 'size', 4),
+				'raw' => true])
 		);
 
 		return join("\n", $html);
