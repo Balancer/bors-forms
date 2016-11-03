@@ -10,7 +10,7 @@
 
 	"require": {
 		"balancer/bors-core": "*",
-		"bower-asset/select2": "*"
+		"bower-asset/select2": "~3.0"
 	},
 
 	"autoload": {
