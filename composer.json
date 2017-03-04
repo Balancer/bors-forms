@@ -13,7 +13,7 @@
 	},
 
 	"suggest": {
-		"bower-asset/select2": "To use select2 component without CDN. Use only ~3.0 version!"
+		"bower-asset/select2": "To use select2 component without CDN. Use only ^3.0 version!"
 	},
 
 	"autoload": {
