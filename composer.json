@@ -9,8 +9,11 @@
 	],
 
 	"require": {
-		"balancer/bors-core": "*",
-		"bower-asset/select2": "~3.0"
+		"balancer/bors-core": "*"
+	},
+
+	"suggest": {
+		"bower-asset/select2": "To use select2 component without CDN. Use only ~3.0 version!"
 	},
 
 	"autoload": {
